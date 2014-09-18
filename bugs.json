@@ -1,0 +1,2163 @@
+{
+	"CVE" : "CVE-2014-0038",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=2def2ef2ae5f3990aabdbe8a755911902707d268",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/14",
+					"Name" : "compat_sys_recvmmsg"
+				}
+			],
+			"File" : "net/compat.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-0049",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a08d3b3b99efd509133946056531cdf8f3a0c09b",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/28",
+					"Name" : "complete_emulated_mmio"
+				}
+			],
+			"File" : "arch/x86/kvm/x86.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2014-0055", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2014-0069",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=5d81de8e8667da7135d3a32a964087c0faf5483f",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "17/17/84",
+					"Name" : "cifs_iovec_write"
+				}
+			],
+			"File" : "fs/cifs/file.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-0077",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=d8316f3991d207fe32881a9ac20241be8fa2bad0",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/9/32",
+					"Name" : "get_rx_bufs"
+				},
+				{
+					"Complexity" : "16/16/58",
+					"Name" : "handle_rx"
+				}
+			],
+			"File" : "drivers/vhost/net.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2014-0100", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2014-0101",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=ec0223ec48a90cb605244b45f7c62de856403729",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "19/21/71",
+					"Name" : "sctp_sf_do_5_1D_ce"
+				}
+			],
+			"File" : "net/sctp/sm_statefuns.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2014-0102", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2014-0131",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=1fd819ecb90cc9b822cd84d3056ddba315d3340f",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "27/27/122",
+					"Name" : "skb_segment"
+				}
+			],
+			"File" : "net/core/skbuff.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-0155",
+	"Reference" : "http://git.kernel.org/cgit/virt/kvm/kvm.git/commit/?id=5678de3f15010b9022ee45673f33bcfc71d47b60",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/23",
+					"Name" : "ioapic_service"
+				}
+			],
+			"File" : "virt/kvm/ioapic.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2014-0240", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2014-0972", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2014-2568", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2014-0181",
+	"Reference" : "https://git.kernel.org/cgit/linux/kernel/git/davem/net.git/commit/?id=90f62cf30a78721641e08737bda787552428061e",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "8/8/24",
+					"Name" : "crypto_user_rcv_msg"
+				}
+			],
+			"File" : "crypto/crypto_user.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/7/17",
+					"Name" : "cn_proc_mcast_ctl"
+				}
+			],
+			"File" : "drivers/connector/cn_proc.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "15/15/38",
+					"Name" : "scsi_nl_rcv_msg"
+				}
+			],
+			"File" : "drivers/scsi/scsi_netlink.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/23/14",
+					"Name" : "audit_netlink_ok"
+				}
+			],
+			"File" : "kernel/audit.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "15/15/45",
+					"Name" : "cgw_create_job"
+				},
+				{
+					"Complexity" : "12/12/38",
+					"Name" : "cgw_remove_job"
+				}
+			],
+			"File" : "net/can/gw.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "50/50/151",
+					"Name" : "do_setlink"
+				},
+				{
+					"Complexity" : "7/7/27",
+					"Name" : "rtnl_setlink"
+				},
+				{
+					"Complexity" : "3/3/7",
+					"Name" : "rtnl_group_changelink"
+				},
+				{
+					"Complexity" : "54/54/127",
+					"Name" : "rtnl_newlink"
+				},
+				{
+					"Complexity" : "15/15/40",
+					"Name" : "rtnl_fdb_del"
+				},
+				{
+					"Complexity" : "10/10/38",
+					"Name" : "rtnetlink_rcv_msg"
+				}
+			],
+			"File" : "net/core/rtnetlink.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "12/12/37",
+					"Name" : "dcb_doit"
+				}
+			],
+			"File" : "net/dcb/dcbnl.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "10/10/29",
+					"Name" : "dn_nl_deladdr"
+				},
+				{
+					"Complexity" : "13/13/40",
+					"Name" : "dn_nl_newaddr"
+				}
+			],
+			"File" : "net/decnet/dn_dev.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "5/5/16",
+					"Name" : "dn_fib_rtm_delroute"
+				},
+				{
+					"Complexity" : "5/5/16",
+					"Name" : "dn_fib_rtm_newroute"
+				}
+			],
+			"File" : "net/decnet/dn_fib.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/6",
+					"Name" : "dnrmg_receive_user_skb"
+				}
+			],
+			"File" : "net/decnet/netfilter/dn_rtmsg.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "8/8/19",
+					"Name" : "nfnetlink_rcv"
+				}
+			],
+			"File" : "net/netfilter/nfnetlink.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "20/20/58",
+					"Name" : "genl_family_rcv_msg"
+				}
+			],
+			"File" : "net/netlink/genetlink.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/19",
+					"Name" : "packet_diag_dump"
+				}
+			],
+			"File" : "net/packet/diag.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/9/29",
+					"Name" : "addr_doit"
+				},
+				{
+					"Complexity" : "12/12/31",
+					"Name" : "route_doit"
+				}
+			],
+			"File" : "net/phonet/pn_netlink.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/11/25",
+					"Name" : "tc_ctl_action"
+				}
+			],
+			"File" : "net/sched/act_api.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "49/51/147",
+					"Name" : "tc_ctl_tfilter"
+				}
+			],
+			"File" : "net/sched/cls_api.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "20/20/46",
+					"Name" : "tc_get_qdisc"
+				},
+				{
+					"Complexity" : "48/48/87",
+					"Name" : "tc_modify_qdisc"
+				},
+				{
+					"Complexity" : "28/30/75",
+					"Name" : "tc_ctl_tclass"
+				}
+			],
+			"File" : "net/sched/sch_api.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/17",
+					"Name" : "handle_cmd"
+				}
+			],
+			"File" : "net/tipc/netlink.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/9/22",
+					"Name" : "xfrm_user_rcv_msg"
+				}
+			],
+			"File" : "net/xfrm/xfrm_user.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-0196",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=4291086b1f081b869c6d79e5b7441633dc3ace00",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "24/24/62",
+					"Name" : "n_tty_write"
+				}
+			],
+			"File" : "drivers/tty/n_tty.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-0203",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=86acdca1b63e6890540fa19495cfc708beff3d8b",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/23",
+					"Name" : "__do_follow_link"
+				}
+			],
+			"File" : "fs/namei.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/8",
+					"Name" : "proc_pid_follow_link"
+				}
+			],
+			"File" : "fs/proc/base.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-0206",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=edfbbf388f293d70bf4b7c0bc38774d05e6f711a",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/41",
+					"Name" : "aio_read_events_ring"
+				}
+			],
+			"File" : "fs/aio.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-1438",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=26bef1318adc1b3a530ecc807ef99346db2aa8b0",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "arch/x86/include/asm/fpu-internal.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-1690",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=2690d97ade05c5325cbf7c72b94b90d265659886",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/25",
+					"Name" : "help"
+				}
+			],
+			"File" : "net/netfilter/nf_nat_irc.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2014-1739",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=e6a623460e5fc960ac3ee9f946d3106233fd28d8",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "5/5/22",
+					"Name" : "media_device_enum_entities"
+				}
+			],
+			"File" : "drivers/media/media-device.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2013-0160", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2013-0190", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2013-0216",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=48856286b64e4b66ec62b94e504d0b29c1ade664",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "drivers/net/xen-netback/common.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/16",
+					"Name" : "xenvif_disconnect"
+				}
+			],
+			"File" : "drivers/net/xen-netback/interface.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/22",
+					"Name" : "netbk_count_requests"
+				},
+				{
+					"Complexity" : "5/5/15",
+					"Name" : "xen_netbk_get_extras"
+				},
+				{
+					"Complexity" : "3/3/11",
+					"Name" : "netbk_set_skb_gso"
+				},
+				{
+					"Complexity" : "21/21/103",
+					"Name" : "xen_netbk_tx_build_gops"
+				}
+			],
+			"File" : "drivers/net/xen-netback/netback.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-0217",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=7d5145d8eb2b9791533ffe4dc003b129b9696c48",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/3",
+					"Name" : "xen_netbk_remove_xenvif"
+				},
+				{
+					"Complexity" : "7/7/45",
+					"Name" : "xen_netbk_tx_check_gop"
+				},
+				{
+					"Complexity" : "2/2/19",
+					"Name" : "xen_netbk_fill_frags"
+				},
+				{
+					"Complexity" : "9/9/38",
+					"Name" : "xen_netbk_tx_submit"
+				},
+				{
+					"Complexity" : "2/2/14",
+					"Name" : "xen_netbk_idx_release"
+				}
+			],
+			"File" : "drivers/net/xen-netback/netback.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-0228",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=13d2b4d11d69a92574a55bfd985cfb0ca77aebdc",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "arch/x86/xen/xen-asm_32.S"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-0268",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=c903f0456bc69176912dee6dd25c6a66ee1aed00",
+	"Patches" : null
+}
+{
+	"CVE" : "CVE-2013-0309",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=027ef6c87853b0a9df53175063028edb4950d476",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "arch/x86/include/asm/pgtable.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-0313",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a67adb997419fb53540d4a4f79c6471c60bc69b6",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/10",
+					"Name" : "evm_update_evmxattr"
+				}
+			],
+			"File" : "security/integrity/evm/evm_crypto.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2013-0913", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2013-1059", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2013-1763",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=6e601a53566d84e1ffd25e7b6fe0b6894ffd79c0",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/11",
+					"Name" : "__sock_diag_rcv_msg"
+				}
+			],
+			"File" : "net/core/sock_diag.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-0871",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=9899d11f654474d2d54ea52ceaa2a1f4db3abd68",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/11",
+					"Name" : "set_task_blockstep"
+				}
+			],
+			"File" : "arch/x86/kernel/step.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/14",
+					"Name" : "__ptrace_unlink"
+				},
+				{
+					"Complexity" : "9/9/13",
+					"Name" : "ptrace_check_attach"
+				},
+				{
+					"Complexity" : "9/9/22",
+					"Name" : "SYSCALL_DEFINE4"
+				},
+				{
+					"Complexity" : "8/8/19",
+					"Name" : "compat_sys_ptrace"
+				}
+			],
+			"File" : "kernel/ptrace.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/5",
+					"Name" : "may_ptrace_stop"
+				},
+				{
+					"Complexity" : "12/12/36",
+					"Name" : "ptrace_stop"
+				}
+			],
+			"File" : "kernel/signal.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-1767",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=5f00110f7273f9ff04ac69a5f85bb535a4fd0987",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "8/8/24",
+					"Name" : "shmem_remount_fs"
+				}
+			],
+			"File" : "mm/shmem.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2013-1772", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2013-1792",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=0da9dfdd2cd9889201bc6f6f43580c99165cd087",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "8/8/45",
+					"Name" : "install_user_keyrings"
+				}
+			],
+			"File" : "security/keys/process_keys.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-1797",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=0b79459b482e85cb7426aa7da683a9f2c97aeae1",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "arch/x86/include/asm/kvm_host.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "13/13/64",
+					"Name" : "kvm_guest_time_update"
+				},
+				{
+					"Complexity" : "2/2/3",
+					"Name" : "kvmclock_reset"
+				},
+				{
+					"Complexity" : "28/70/113",
+					"Name" : "kvm_set_msr_common"
+				},
+				{
+					"Complexity" : "2/2/5",
+					"Name" : "kvm_set_guest_paused"
+				},
+				{
+					"Complexity" : "10/10/43",
+					"Name" : "kvm_arch_vcpu_init"
+				}
+			],
+			"File" : "arch/x86/kvm/x86.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-1819",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=eb178619f930fa2ba2348de332a1ff1c66a31424",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "10/10/59",
+					"Name" : "_xfs_buf_find"
+				}
+			],
+			"File" : "fs/xfs/xfs_buf.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-1827",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=276bdb82dedb290511467a5a4fdbe9f0b52dce6f",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "net/dccp/ccid.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-1828",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=726bc6b092da4c093eb74d13c07184b18c1af0f1",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/33",
+					"Name" : "sctp_getsockopt_assoc_stats"
+				}
+			],
+			"File" : "net/sctp/socket.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2013-1848",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=8d0c2d10dd72c5292eda7a06231056a4c972e4cc",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/8",
+					"Name" : "ext3_blkdev_get"
+				},
+				{
+					"Complexity" : "6/6/13",
+					"Name" : "get_sb_block"
+				}
+			],
+			"File" : "fs/ext3/super.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-0028",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=8141c7f3e7aee618312fa1c15109e1219de784a7",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "21/21/78",
+					"Name" : "do_exit"
+				}
+			],
+			"File" : "kernel/exit.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "5/5/10",
+					"Name" : "mm_release"
+				}
+			],
+			"File" : "kernel/fork.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-0038",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=093019cf1b18dd31b2c3b77acce4e000e2cbc9ce",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "5/10/25",
+					"Name" : "xfs_acl_from_disk"
+				}
+			],
+			"File" : "fs/xfs/xfs_acl.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-0044",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a5cd335165e31db9dbab636fd29895d41da55dd2",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "11/11/42",
+					"Name" : "drm_mode_dirtyfb_ioctl"
+				}
+			],
+			"File" : "drivers/gpu/drm/drm_crtc.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "include/drm/drm_mode.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-0045",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=c2226fc9e87ba3da060e47333657cd6616652b84",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "arch/x86/include/asm/kvm_emulate.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/30",
+					"Name" : "em_syscall"
+				}
+			],
+			"File" : "arch/x86/kvm/emulate.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-0056",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=e268337dfe26dfc7efd422a804dbb27977a3cccc",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/15",
+					"Name" : "__check_mem_permission"
+				},
+				{
+					"Complexity" : "5/5/11",
+					"Name" : "mm_for_maps"
+				},
+				{
+					"Complexity" : "10/10/40",
+					"Name" : "mem_read"
+				},
+				{
+					"Complexity" : "10/10/41",
+					"Name" : "mem_write"
+				},
+				{
+					"Complexity" : "2/3/7",
+					"Name" : "mem_lseek"
+				}
+			],
+			"File" : "fs/proc/base.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2012-0058", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2012-0207",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "21/21/58",
+					"Name" : "igmp_heard_query"
+				}
+			],
+			"File" : "net/ipv4/igmp.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-0879",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=61cc74fbb87af6aa551a06a370590c9bc07e29d9",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/10",
+					"Name" : "exit_io_context"
+				}
+			],
+			"File" : "block/blk-ioc.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2012-1090", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2012-1179", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2012-1568", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2012-1601", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2012-2121", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2012-0957",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=2702b1526c7278c4d65d78de209a465d4de2885e",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/16",
+					"Name" : "override_release"
+				}
+			],
+			"File" : "kernel/sys.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-1097",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=c8e252586f8d5de906385d8cf6385fee289a825e",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "8/8/26",
+					"Name" : "fill_thread_core_info"
+				}
+			],
+			"File" : "fs/binfmt_elf.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "include/linux/regset.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-1146",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=371528caec553785c37f73fa3926ea0de84f986f",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/9/41",
+					"Name" : "mem_cgroup_usage_unregister_event"
+				}
+			],
+			"File" : "mm/memcontrol.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-1583",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=d0772b70faaf8e9f2013b6c4273d94d5eac8047a",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/4",
+					"Name" : "xfrm6_tunnel_rcv"
+				}
+			],
+			"File" : "net/ipv6/xfrm6_tunnel.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-2119",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=b92946e2919134ebe2a4083e4302236295ea2a73",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "14/14/56",
+					"Name" : "zerocopy_sg_from_iovec"
+				},
+				{
+					"Complexity" : "21/21/64",
+					"Name" : "macvtap_get_user"
+				}
+			],
+			"File" : "drivers/net/macvtap.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-2127",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=905ad269c55fc62bee3da29f7b1d1efeba8aa1e1",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/22",
+					"Name" : "proc_root_init"
+				},
+				{
+					"Complexity" : "1/1/1",
+					"Name" : "pid_ns_release_proc"
+				}
+			],
+			"File" : "fs/proc/root.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2012-2133",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=90481622d75715bfcb68501280a917dbfe516029",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/14",
+					"Name" : "hugetlbfs_statfs"
+				},
+				{
+					"Complexity" : "2/2/4",
+					"Name" : "hugetlbfs_put_super"
+				},
+				{
+					"Complexity" : "5/5/42",
+					"Name" : "hugetlbfs_fill_super"
+				},
+				{
+					"Complexity" : "3/3/9",
+					"Name" : "hugetlb_get_quota"
+				}
+			],
+			"File" : "fs/hugetlbfs/inode.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "include/linux/hugetlb.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/18",
+					"Name" : "free_huge_page"
+				},
+				{
+					"Complexity" : "4/4/8",
+					"Name" : "return_unused_surplus_pages"
+				},
+				{
+					"Complexity" : "6/6/22",
+					"Name" : "alloc_huge_page"
+				},
+				{
+					"Complexity" : "3/3/13",
+					"Name" : "hugetlb_vm_op_close"
+				},
+				{
+					"Complexity" : "3/3/15",
+					"Name" : "unmap_ref_private"
+				},
+				{
+					"Complexity" : "10/10/23",
+					"Name" : "hugetlb_reserve_pages"
+				},
+				{
+					"Complexity" : "1/1/7",
+					"Name" : "hugetlb_unreserve_pages"
+				}
+			],
+			"File" : "mm/hugetlb.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-0006",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=867c20265459d30a01b021a9c1e81fb4c5832aa9",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/6",
+					"Name" : "ima_lsm_rule_init"
+				}
+			],
+			"File" : "security/integrity/ima/ima_policy.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2011-0453", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2011-0463",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=272b62c1f0f6f742046e45b50b6fec98860208a0",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "8/8/30",
+					"Name" : "ocfs2_prepare_page_for_write"
+				}
+			],
+			"File" : "fs/ocfs2/aops.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-0521",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=cb26a24ee9706473f31d34cc259f4dcf45cd0644",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/13/38",
+					"Name" : "dvb_ca_ioctl"
+				}
+			],
+			"File" : "drivers/media/dvb/ttpci/av7110_ca.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2011-0636", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2011-0695", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2011-0711",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=3a3675b7f23f83ca8c67c9c2b6edf707fd28d1ba",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "18/18/41",
+					"Name" : "xfs_fs_geometry"
+				}
+			],
+			"File" : "fs/xfs/xfs_fsops.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-0712",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/tiwai/sound-2.6.git;a=commit;h=eaae55dac6b64c0616046436b294e69fc5311581",
+	"Patches" : null
+}
+{ "CVE" : "CVE-2011-0714", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2011-0716",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=6b0d6a9b4296fa16a28d10d416db7a770fc03287",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "10/10/38",
+					"Name" : "br_multicast_add_group"
+				}
+			],
+			"File" : "net/bridge/br_multicast.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-0726",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=5883f57ca0008ffc93e09cbb9847a1928e50c6f3",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "17/17/81",
+					"Name" : "do_task_stat"
+				}
+			],
+			"File" : "fs/proc/array.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-1010",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=fa7ea87a057958a8b7926c1a60a3ca6d696328ed",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "21/21/70",
+					"Name" : "mac_partition"
+				}
+			],
+			"File" : "fs/partitions/mac.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-0999",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a7d6e4ecdb7648478ddec76d30d87d03d6e22b31",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "include/linux/huge_mm.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "18/18/88",
+					"Name" : "collapse_huge_page"
+				},
+				{
+					"Complexity" : "23/23/70",
+					"Name" : "khugepaged_scan_mm_slot"
+				},
+				{
+					"Complexity" : "5/5/25",
+					"Name" : "khugepaged"
+				}
+			],
+			"File" : "mm/huge_memory.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-1012",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=294f6cf48666825d23c9372ef37631232746e40d",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "5/5/14",
+					"Name" : "ldm_parse_vmdb"
+				}
+			],
+			"File" : "fs/partitions/ldm.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-1013",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=1922756124ddd53846877416d92ba4a802bc658f",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/5/15",
+					"Name" : "drm_modeset_ctl"
+				}
+			],
+			"File" : "drivers/gpu/drm/drm_irq.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "include/drm/drmP.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2011-1016",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=fff1ce4dc6113b6fdc4e3a815ca5fd229408f8ef",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "23/25/71",
+					"Name" : "r100_cs_track_check"
+				},
+				{
+					"Complexity" : "9/9/65",
+					"Name" : "r100_cs_track_clear"
+				}
+			],
+			"File" : "drivers/gpu/drm/radeon/r100.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "drivers/gpu/drm/radeon/r100_track.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "49/201/259",
+					"Name" : "r300_packet0_check"
+				}
+			],
+			"File" : "drivers/gpu/drm/radeon/r300.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "drivers/gpu/drm/radeon/r300_reg.h"
+		},
+		{
+			"Functions" : null,
+			"File" : "drivers/gpu/drm/radeon/reg_srcs/r300"
+		},
+		{
+			"Functions" : null,
+			"File" : "drivers/gpu/drm/radeon/reg_srcs/r420"
+		},
+		{
+			"Functions" : null,
+			"File" : "drivers/gpu/drm/radeon/reg_srcs/rs600"
+		},
+		{
+			"Functions" : null,
+			"File" : "drivers/gpu/drm/radeon/reg_srcs/rv515"
+		}
+	]
+}
+{ "CVE" : "CVE-2011-1017", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2011-1019",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=8909c9ad8ff03611c9c96c9a92656213e4bb495b",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "include/linux/netdevice.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/6",
+					"Name" : "dev_load"
+				}
+			],
+			"File" : "net/core/dev.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/5",
+					"Name" : "ipgre_fini"
+				}
+			],
+			"File" : "net/ipv4/ip_gre.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/3",
+					"Name" : "ipip_fini"
+				}
+			],
+			"File" : "net/ipv4/ipip.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/10",
+					"Name" : "sit_init"
+				}
+			],
+			"File" : "net/ipv6/sit.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2011-1020", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2011-1021",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=526b4af47f44148c9d665e57723ed9f86634c6e3",
+	"Patches" : null
+}
+{
+	"CVE" : "CVE-2010-0003",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=b45c6e76bc2c72f6426c14bed64fdcbc9bf37cb0",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/13",
+					"Name" : "print_fatal_signal"
+				}
+			],
+			"File" : "kernel/signal.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0006",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=2570a4f5428bcdb1077622342181755741e7fa60",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/2",
+					"Name" : "ipv6_skb_idev"
+				},
+				{
+					"Complexity" : "7/7/24",
+					"Name" : "ipv6_hop_jumbo"
+				}
+			],
+			"File" : "net/ipv6/exthdrs.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0007",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=dce766af541f6605fa9889892c0280bab31c66ab",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/3/7",
+					"Name" : "do_ebt_set_ctl"
+				},
+				{
+					"Complexity" : "7/10/32",
+					"Name" : "do_ebt_get_ctl"
+				}
+			],
+			"File" : "net/bridge/netfilter/ebtables.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0291",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=0067bd8a55862ac9dd212bd1c4f6f5bff1ca1301",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/9/21",
+					"Name" : "ia32_do_mmap"
+				}
+			],
+			"File" : "arch/ia64/ia32/sys_ia32.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0410",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=f98bfbd78c37c5946cc53089da32a5f741efdeb7",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/9/25",
+					"Name" : "cn_notify"
+				},
+				{
+					"Complexity" : "3/3/9",
+					"Name" : "cn_add_callback"
+				},
+				{
+					"Complexity" : "7/7/28",
+					"Name" : "cn_callback"
+				},
+				{
+					"Complexity" : "4/4/21",
+					"Name" : "cn_init"
+				},
+				{
+					"Complexity" : "1/1/6",
+					"Name" : "cn_fini"
+				}
+			],
+			"File" : "drivers/connector/connector.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "include/linux/connector.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0415",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=6f5a55f1a6c5abee15a0e878e5c74d9f1569b8b0",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "12/12/49",
+					"Name" : "do_pages_move"
+				}
+			],
+			"File" : "mm/migrate.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2010-0727", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2010-0729", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2010-0730", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2010-1085", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2010-1146", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2010-1148", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2010-0307",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=221af7f87b97431e3ee21ce4b0e77d5411cf1549",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "3/3/6",
+					"Name" : "flush_thread"
+				}
+			],
+			"File" : "arch/sh/kernel/process_64.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "25/25/91",
+					"Name" : "load_aout_binary"
+				}
+			],
+			"File" : "arch/x86/ia32/ia32_aout.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "28/28/84",
+					"Name" : "load_aout_binary"
+				}
+			],
+			"File" : "fs/binfmt_aout.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "79/79/251",
+					"Name" : "load_elf_binary"
+				}
+			],
+			"File" : "fs/binfmt_elf.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "44/45/169",
+					"Name" : "load_elf_fdpic_binary"
+				}
+			],
+			"File" : "fs/binfmt_elf_fdpic.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "48/48/193",
+					"Name" : "load_flat_file"
+				}
+			],
+			"File" : "fs/binfmt_flat.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "8/8/49",
+					"Name" : "load_som_binary"
+				}
+			],
+			"File" : "fs/binfmt_som.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "13/13/40",
+					"Name" : "flush_old_exec"
+				}
+			],
+			"File" : "fs/exec.c"
+		},
+		{
+			"Functions" : null,
+			"File" : "include/linux/binfmts.h"
+		},
+		{
+			"Functions" : null,
+			"File" : "include/linux/sched.h"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0622",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=51246bfd189064079c54421507236fd2723b18f3",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/32",
+					"Name" : "wake_futex_pi"
+				}
+			],
+			"File" : "kernel/futex.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0623",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=5ecb01cfdf96c5f465192bdb2a4fd4a61a24c6cc",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "16/18/59",
+					"Name" : "futex_lock_pi"
+				}
+			],
+			"File" : "kernel/futex.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-0741",
+	"Reference" : "http://git.kernel.org/?p=virt/kvm/qemu-kvm.git;a=commit;h=184bd0484533b725194fa517ddc271ffd74da7c9",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/7",
+					"Name" : "virtio_net_bad_features"
+				}
+			],
+			"File" : "hw/virtio-net.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-1084",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=101545f6fef4a0a3ea8daf0b5b880df2c6a92a69",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/8",
+					"Name" : "l2cap_sysfs_show"
+				}
+			],
+			"File" : "net/bluetooth/l2cap.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/10",
+					"Name" : "rfcomm_dlc_sysfs_show"
+				}
+			],
+			"File" : "net/bluetooth/rfcomm/core.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/7",
+					"Name" : "rfcomm_sock_sysfs_show"
+				}
+			],
+			"File" : "net/bluetooth/rfcomm/sock.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/7",
+					"Name" : "sco_sysfs_show"
+				}
+			],
+			"File" : "net/bluetooth/sco.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-1086",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=29e1fa3565a7951cc415c634eb2b78dbdbee151d",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "53/54/220",
+					"Name" : "dvb_net_ule"
+				}
+			],
+			"File" : "drivers/media/dvb/dvb-core/dvb_net.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-1087",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=9f557cd8073104b39528794d44e129331ded649f",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "1/1/1",
+					"Name" : "nfs_release_request"
+				},
+				{
+					"Complexity" : "2/2/5",
+					"Name" : "nfs_wait_on_request"
+				}
+			],
+			"File" : "fs/nfs/pagelist.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2010-1088",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=ac278a9c505092dd82077a2446af8f9fc0d9c095",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "18/18/51",
+					"Name" : "do_lookup"
+				},
+				{
+					"Complexity" : "40/42/111",
+					"Name" : "link_path_walk"
+				}
+			],
+			"File" : "fs/namei.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0024",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.24.y.git;a=commit;h=8a459e44ad837018ea5c34a9efe8eb4ad27ded26",
+	"Patches" : null
+}
+{ "CVE" : "CVE-2009-0028", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2009-0029", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2009-0031", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2009-0032", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2009-0065",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=9fcb95a105758b81ef0131cd18e2db5149f13e95",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/26",
+					"Name" : "sctp_sf_eat_fwd_tsn"
+				},
+				{
+					"Complexity" : "5/5/25",
+					"Name" : "sctp_sf_eat_fwd_tsn_fast"
+				}
+			],
+			"File" : "net/sctp/sm_statefuns.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0269",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git;a=commit;h=a17d5232de7b53d34229de79ec22f4bb04adb7e4",
+	"Patches" : null
+}
+{
+	"CVE" : "CVE-2009-0322",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git;a=commit;h=81156928f8fe31621e467490b9d441c0285998c3",
+	"Patches" : null
+}
+{
+	"CVE" : "CVE-2009-0605",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git;a=commit;h=9be260a646bf76fa418ee519afa10196b3164681",
+	"Patches" : null
+}
+{
+	"CVE" : "CVE-2009-0676",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=df0bca049d01c0ee94afb7cd5dfd959541e6c8da",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "18/44/93",
+					"Name" : "sock_getsockopt"
+				}
+			],
+			"File" : "net/core/sock.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0745",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=fdff73f094e7220602cc3f8959c7230517976412",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "28/28/91",
+					"Name" : "ext4_group_add"
+				}
+			],
+			"File" : "fs/ext4/resize.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0746",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=e6b8bc09ba2075cd91fbffefcd2778b1a00bd76f",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "6/6/62",
+					"Name" : "make_indexed_dir"
+				}
+			],
+			"File" : "fs/ext4/namei.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0747",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=06a279d636734da32bb62dd2f7b0ade666f65d7c",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "fs/ext4/ext4.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "7/7/29",
+					"Name" : "ext4_block_to_path"
+				}
+			],
+			"File" : "fs/ext4/inode.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0748",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=4ec110281379826c5cf6ed14735e47027c3c5765",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "111/113/360",
+					"Name" : "ext4_fill_super"
+				}
+			],
+			"File" : "fs/ext4/super.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2009-0835", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2009-0935", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2009-0778",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=7c0ecc4c4f8fd90988aab8a95297b9c0038b6160",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "33/34/107",
+					"Name" : "icmp_send"
+				}
+			],
+			"File" : "net/ipv4/icmp.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0787",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=8faece5f906725c10e7a1f6caf84452abadbdc7b",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/5",
+					"Name" : "ecryptfs_write_metadata_to_contents"
+				},
+				{
+					"Complexity" : "1/1/3",
+					"Name" : "ecryptfs_write_metadata_to_xattr"
+				},
+				{
+					"Complexity" : "7/7/29",
+					"Name" : "ecryptfs_write_metadata"
+				}
+			],
+			"File" : "fs/ecryptfs/crypto.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0834",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=ccbe495caa5e604b04d5a31d7459a6f6a76a756c",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "2/2/9",
+					"Name" : "send_sigtrap"
+				}
+			],
+			"File" : "arch/x86/kernel/ptrace.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2009-0859",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a68e61e8ff2d46327a37b69056998b47745db6fa",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "4/4/24",
+					"Name" : "shm_get_stat"
+				}
+			],
+			"File" : "ipc/shm.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2008-0001",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=974a9f0b47da74e28f68b9c8645c3786aa5ace1a",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "25/25/45",
+					"Name" : "may_open"
+				}
+			],
+			"File" : "fs/namei.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2008-0007", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-0009", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-0163", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-0352", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-0598", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-0600", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-0731", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-1198", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2008-1294",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=9926e4c74300c4b31dee007298c6475d33369df0",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "14/14/37",
+					"Name" : "sys_setrlimit"
+				}
+			],
+			"File" : "kernel/sys.c"
+		}
+	]
+}
+{
+	"CVE" : "CVE-2008-1367",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=e40cd10ccff3d9fbffd57b93780bee4b7b9bff51",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "10/10/42",
+					"Name" : "ia32_setup_frame"
+				},
+				{
+					"Complexity" : "10/10/50",
+					"Name" : "ia32_setup_rt_frame"
+				}
+			],
+			"File" : "arch/x86/ia32/ia32_signal.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "13/13/46",
+					"Name" : "setup_frame"
+				},
+				{
+					"Complexity" : "10/10/49",
+					"Name" : "setup_rt_frame"
+				}
+			],
+			"File" : "arch/x86/kernel/signal_32.c"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "11/11/50",
+					"Name" : "setup_rt_frame"
+				}
+			],
+			"File" : "arch/x86/kernel/signal_64.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2008-1375", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2008-1514",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=3d6e48f43340343d97839eadb1ab7b6a3ea98797",
+	"Patches" : [
+		{
+			"Functions" : null,
+			"File" : "arch/s390/kernel/compat_ptrace.h"
+		},
+		{
+			"Functions" : [
+				{
+					"Complexity" : "9/9/23",
+					"Name" : "__peek_user"
+				},
+				{
+					"Complexity" : "13/13/25",
+					"Name" : "__poke_user"
+				},
+				{
+					"Complexity" : "13/13/27",
+					"Name" : "__peek_user_compat"
+				},
+				{
+					"Complexity" : "16/16/30",
+					"Name" : "__poke_user_compat"
+				}
+			],
+			"File" : "arch/s390/kernel/ptrace.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2008-1615", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2008-1669", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2008-1673",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git;a=commit;h=33afb8403f361919aa5c8fe1d0a4f5ddbfbbea3c",
+	"Patches" : null
+}
+{ "CVE" : "CVE-2008-2137", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2008-2148",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git;a=commit;h=f9dfda1ad0637a89a64d001cf81478bd8d9b6306",
+	"Patches" : null
+}
+{ "CVE" : "CVE-2008-2358", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2008-2365",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git;a=commit;h=5ecfbae093f0c37311e89b29bfc0c9d586eace87",
+	"Patches" : null
+}
+{ "CVE" : "CVE-2007-0005", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-0006", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-0771", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-0772", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-0773", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-0822", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-0958", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-0997", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-1000", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-1217", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-1353", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-1357", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-1496", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-1497", "Reference" : "N/A", "Patches" : null }
+{
+	"CVE" : "CVE-2007-1592",
+	"Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=d35690beda1429544d46c8eb34b2e3a8c37ab299",
+	"Patches" : [
+		{
+			"Functions" : [
+				{
+					"Complexity" : "24/24/111",
+					"Name" : "tcp_v6_syn_recv_sock"
+				}
+			],
+			"File" : "net/ipv6/tcp_ipv6.c"
+		}
+	]
+}
+{ "CVE" : "CVE-2007-1730", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-1734", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-2172", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-2451", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2007-2453", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0035", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0036", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0037", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0095", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0096", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0454", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0456", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0457", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0482", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0554", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0557", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0558", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0741", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-0744", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-1052", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-1055", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-1056", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-1066", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-1242", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2006-1342", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0001", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0003", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0086", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0124", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0135", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0136", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0137", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0176", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0179", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0180", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0204", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0207", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0209", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0210", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0384", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0400", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0403", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0489", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0504", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2005-0529", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0001", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0003", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0010", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0058", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0077", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0109", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0133", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0138", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0177", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0178", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0181", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0186", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0228", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0229", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0415", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0424", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0427", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0491", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0495", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2004-0496", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0018", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0084", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0127", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0187", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0244", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0246", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0247", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0248", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0364", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0418", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0461", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0464", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0465", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0476", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0550", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0551", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0619", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0643", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0956", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2003-0959", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-0046", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-0429", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-0499", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-0510", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-0570", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1319", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1380", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1572", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1573", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1737", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1826", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1963", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-1976", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2002-2254", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-0316", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-0317", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-0405", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-0851", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-0907", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-0914", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1273", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1384", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1390", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1391", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1392", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1393", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1394", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1395", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1396", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1397", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1398", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1399", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1400", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2001-1551", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2000-0227", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2000-0289", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2000-0344", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2000-0369", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-2000-0506", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-0400", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-0401", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-0451", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-0804", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-0986", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1018", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1341", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1352", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1387", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1434", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1442", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1489", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1496", "Reference" : "N/A", "Patches" : null }
+{ "CVE" : "CVE-1999-1498", "Reference" : "N/A", "Patches" : null }
