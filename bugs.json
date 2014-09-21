@@ -2048,6 +2048,33 @@
 { "CVE" : "CVE-2006-1066", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2006-1242", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2006-1342", "Reference" : "N/A", "Patches" : null }
+{
+    "CVE" : "CVE-2006-5755",
+    "Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=658fdbef66e5e9be79b457edc2cbbb3add840aa9",
+    "Patches" : [ 
+        {
+            "Functions" : null,
+            "File" : "arch/x86_64/kernel/entry.S"
+        }, 
+        {
+            "Functions" : [ 
+                {
+                    "Complexity" : "3/3/4",
+                    "Name" : "check_efer"
+                }, 
+                {
+                    "Complexity" : "9/9/57",
+                    "Name" : "cpu_init"
+                }
+            ],
+            "File" : "arch/x86_64/kernel/setup64.c"
+        }, 
+        {
+            "Functions" : null,
+            "File" : "include/asm-x86_64/system.h"
+        }
+    ]
+}
 { "CVE" : "CVE-2005-0001", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2005-0003", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2005-0086", "Reference" : "N/A", "Patches" : null }
