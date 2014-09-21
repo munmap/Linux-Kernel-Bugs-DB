@@ -2068,6 +2068,51 @@
 { "CVE" : "CVE-2005-0489", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2005-0504", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2005-0529", "Reference" : "N/A", "Patches" : null }
+{
+    "CVE" : "CVE-2005-4886",
+    "Reference" : "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=0d3d077cd4f1154e63a9858e47fe3fb1ad0c03e5",
+    "Patches" : [ 
+        {
+            "Functions" : null,
+            "File" : "include/net/ipv6.h"
+        }, 
+        {
+            "Functions" : [ 
+                {
+                    "Complexity" : "6/6/1",
+                    "Name" : "ipv6_ext_hdr"
+                }, 
+                {
+                    "Complexity" : "9/9/27",
+                    "Name" : "ipv6_skip_exthdr"
+                }
+            ],
+            "File" : "net/ipv6/exthdrs_core.c"
+        }, 
+        {
+            "Functions" : [ 
+                {
+                    "Complexity" : "6/6/14",
+                    "Name" : "is_ineligible"
+                }, 
+                {
+                    "Complexity" : "9/9/30",
+                    "Name" : "icmpv6_notify"
+                }
+            ],
+            "File" : "net/ipv6/icmp.c"
+        }, 
+        {
+            "Functions" : [ 
+                {
+                    "Complexity" : "6/7/31",
+                    "Name" : "selinux_parse_skb_ipv6"
+                }
+            ],
+            "File" : "security/selinux/hooks.c"
+        }
+    ]
+}
 { "CVE" : "CVE-2004-0001", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2004-0003", "Reference" : "N/A", "Patches" : null }
 { "CVE" : "CVE-2004-0010", "Reference" : "N/A", "Patches" : null }
